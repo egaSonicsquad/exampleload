@@ -1,0 +1,59 @@
+
+.loader{
+    background:#000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    padding: 100px; 
+    z-index: 12000;
+    overflow: hidden;
+    opacity: 1;
+
+  .load-intro-container{
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; 
+    overflow: hidden;
+    text-align: center; 
+    display: inline-block;
+  
+    .load-intro{
+      position: relative;
+      left: 0;
+      height: 100%;
+     
+      width: 100%; 
+      background:rgba(73, 73, 73,.2);
+      
+      
+    }
+    .tittle-load{
+      position: relative; 
+      bottom: 60%; 
+      line-height: 40px;
+      color: #ffffff;
+      overflow: hidden;
+      padding: 30px;
+      h2{
+        margin: 0px;
+        letter-spacing: 10px;
+        font-size: 80px;
+        font-weight: 900; 
+        span{
+          font-weight: 400;
+          font-size: 20px;
+        }
+        
+        @include animate(slide-out-down, 4s,500ms);
+      } 
+     
+    }
+  }
+  @include animate(fade-out, 4s,1000ms);
+}

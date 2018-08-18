@@ -1,0 +1,37 @@
+header{ 
+  position: relative;
+  z-index: 10000;
+  top: -80px;
+  .logo{
+    position: absolute;
+    width: 140px;
+    height: 30px; 
+    left: 40px;
+    top: 34px;
+  }
+  .menu{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    right: 40px;
+    top: 34px;
+    cursor: pointer;
+    span{
+      width: 34px;
+      height: 2px; 
+      overflow: hidden;
+      position: absolute;
+      background: #ffffff;
+    }
+    .menubar_top{
+      top: 8px;
+    }
+    .menubar_mid{
+      top: 12px;
+    }
+    .menubar_mid{
+      top: 16px;
+    } 
+  } 
+}
+

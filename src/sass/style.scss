@@ -1,0 +1,22 @@
+
+body{ 
+  color: #737373;
+  height: 100%;
+  background: #000000;
+  margin: 0;
+  padding: 0px;
+  letter-spacing: 1px;
+}
+ 
+@import 'animated/animated'; 
+@include animation(fade-in-down);
+@include animation(fade-out-down);
+@include animation(fade-out-right);
+@include animation(slide-out-right);
+@include animation(slide-out-down);
+@include animation(fade-out-down-big);
+@include animation(fade-out);
+@import 'typhography';
+@import 'loader';
+@import 'header';
+
