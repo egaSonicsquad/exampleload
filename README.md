@@ -19,4 +19,4 @@ Without Developer,
 Instans check it folder dist for template,
  
  ## Authors
- * **Sonicsquad  Say me "Ega"** -  [Myboilerplate](https://github.com/egaSonicsquad/exampleload)
+ * **Sonicsquad   nick name "Ega"** -  [Myboilerplate](https://github.com/egaSonicsquad/exampleload)
