@@ -1,0 +1,16 @@
+.one_n{
+  -webkit-transition:all .1s ease-in-out!important;
+  -moz-transition:all .1s ease-in-out!important;
+  -o-transition:all .1s ease-in-out!important;
+  transition:all .1s ease-in-out!important;
+  &:hover{
+  
+    background: #ffffff;
+    border-left: 0px solid #ffffff!important;
+    border-right: 0px solid #ffffff!important;
+    .two_change{
+      color: rgb(15, 16, 20);
+    }
+  }
+
+}

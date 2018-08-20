@@ -1,0 +1,24 @@
+@media screen and (max-width: 992px) {
+  .info_project h2{
+    font-size: 40px;
+  }
+  .loader{
+    padding: 0px;
+  }
+  .loader .load-intro-container .tittle-load{
+    padding:0px; 
+  }
+  .tittle-load img{
+    width: 100%;
+  }
+  .content-menu{
+    padding: 50px;
+    height: 100%; 
+    .col-50{
+      background-size:cover;
+    }
+    a{
+      font-size: 20px;
+    }
+  }
+}

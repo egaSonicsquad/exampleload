@@ -2,10 +2,11 @@
 body{ 
   color: #737373;
   height: 100%;
-  background: #000000;
+  background: #0f1014;
   margin: 0;
   padding: 0px;
   letter-spacing: 1px;
+  overflow-x:hidden; 
 }
  
 @import 'animated/animated'; 
@@ -17,6 +18,10 @@ body{
 @include animation(fade-out-down-big);
 @include animation(fade-out);
 @import 'typhography';
+@import 'button';
 @import 'loader';
 @import 'header';
+@import 'slider';
+@import 'media32';
+@import 'socialNetwork.scss';
 
